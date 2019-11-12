@@ -20,7 +20,7 @@ def initialize(name)
   @name = name
   #@save = self.class.all << self
   @@all << self
-  save
+  #save
   end
 
 
