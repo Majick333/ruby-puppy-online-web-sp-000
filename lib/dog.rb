@@ -21,7 +21,8 @@ def initialize(name)
   #name.save
   #save(@@all)
   #self.save
-  name.save
+  #name.save
+  @@all << self
   end
 
 
