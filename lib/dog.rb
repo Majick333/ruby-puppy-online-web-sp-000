@@ -18,10 +18,6 @@ def self.all
 
 def initialize(name)
   @name = name
-  #name.save
-  #save(@@all)
-  #self.save
-  #name.save
   @@all << self
   end
 
