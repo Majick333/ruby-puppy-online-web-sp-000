@@ -8,13 +8,17 @@ def self.all
     @@all
   end
 
+  def save
+    self.class.all << self
+  end
+
 #def name(name)
 #  @name = name
 #end
 
 def initialize(name)
   @name = name
-  @@all << self.class.all
+  @@all << self
   end
 
 
@@ -27,9 +31,7 @@ def initialize(name)
   self.all.each{|dog| puts "#{dog.name}"}
 end
 
-  def save
-    self.class.all << self
-  end
+
 
 
 end
