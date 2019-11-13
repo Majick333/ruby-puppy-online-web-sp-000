@@ -16,7 +16,7 @@ def self.all
 #  @name = name
 #end
 
-def initialize(name,save)
+def initialize(name)
   @name = name
   #@@all << self
   save
